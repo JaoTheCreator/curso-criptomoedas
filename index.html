@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Criptomoedas do Zero - João</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%); }
+        .coin { animation: float 3s ease-in-out infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-black border-b border-yellow-500/30 fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i class="fas fa-coins text-yellow-400 text-3xl"></i>
+                <h1 class="text-2xl font-bold">João Cripto</h1>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm">
+                <a href="#sobre" class="hover:text-yellow-400 transition">Sobre</a>
+                <a href="#modulos" class="hover:text-yellow-400 transition">Módulos</a>
+                <a href="#depoimentos" class="hover:text-yellow-400 transition">Depoimentos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg min-h-screen pt-24 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-2 bg-yellow-400/10 text-yellow-400 text-sm px-4 py-2 rounded-full mb-6">
+                    <i class="fas fa-fire"></i>
+                    <span>Curso Atualizado 2026</span>
+                </div>
+                <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    Aprenda a viver de <span class="text-yellow-400">Criptomoedas</span>
+                </h2>
+                <p class="text-xl text-zinc-300 mb-8">
+                    Curso completo do zero ao avançado. Tudo que você precisa saber para operar com segurança e rentabilidade.
+                </p>
+                <a href="https://pay.kiwify.com.br/MsrcL2y" 
+                   target="_blank"
+                   class="bg-yellow-400 hover:bg-yellow-300 text-black font-bold text-xl px-10 py-5 rounded-2xl transition inline-flex items-center gap-3">
+                    <i class="fas fa-lock"></i>
+                    COMPRAR POR R$ 19,90
+                </a>
+            </div>
+
+            <div class="relative">
+                <div class="bg-zinc-900/70 backdrop-blur-xl border border-yellow-400/20 rounded-3xl p-8 coin">
+                    <img src="https://picsum.photos/id/1015/600/400" alt="Criptomoedas" class="rounded-2xl shadow-2xl mx-auto">
+                    <div class="mt-6 text-center">
+                        <div class="text-emerald-400 font-mono text-4xl font-bold">R$ 19,90</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-20 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">O que você vai aprender</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-800/50 border border-zinc-700 rounded-2xl p-8 hover:border-yellow-400/50 transition">
+                    <i class="fas fa-wallet text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Carteiras e Segurança</h3>
+                    <p class="text-zinc-300">Como proteger seu dinheiro e evitar golpes.</p>
+                </div>
+                <div class="bg-zinc-800/50 border border-zinc-700 rounded-2xl p-8 hover:border-yellow-400/50 transition">
+                    <i class="fas fa-chart-line text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Análise e Trading</h3>
+                    <p class="text-zinc-300">Estratégias práticas de compra e venda.</p>
+                </div>
+                <div class="bg-zinc-800/50 border border-zinc-700 rounded-2xl p-8 hover:border-yellow-400/50 transition">
+                    <i class="fas fa-coins text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-3">DeFi e Rendimento</h3>
+                    <p class="text-zinc-300">Como fazer seu dinheiro render em criptomoedas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acesso / Compra -->
+    <section id="acesso" class="py-20 bg-zinc-900">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Pronto para começar sua jornada?</h2>
+            <p class="text-xl text-zinc-300 mb-10">Pagamento seguro via Kiwify. Acesso imediato após a aprovação.</p>
+            
+            <div class="bg-zinc-800 rounded-3xl p-12 max-w-lg mx-auto">
+                <i class="fas fa-file-pdf text-red-500 text-7xl mb-6"></i>
+                <h3 class="text-3xl font-bold mb-4">Curso Criptomoedas do Zero</h3>
+                <p class="text-emerald-400 text-2xl font-semibold mb-8">Apenas R$ 19,90</p>
+                
+                <a href="https://pay.kiwify.com.br/MsrcL2y" 
+                   target="_blank"
+                   class="inline-flex items-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black font-bold text-xl px-12 py-6 rounded-2xl transition">
+                    <i class="fas fa-lock"></i>
+                    COMPRAR E LIBERAR ACESSO
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-12 text-center text-zinc-500">
+        <p>© 2026 João Cripto • Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
